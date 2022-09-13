@@ -6,13 +6,14 @@
     "base",
     "keypad",
     "fn",
-    "mod"
+    "mod",
+    "nav"
   ],
   "layers": [
     [
            "&none",     "&none",    "&none",    "&none",     "&none",    "&none",                   "&tog 1",                "&mo 3",            "&none",           "&none",     "&none",             "&none",                   "&none", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",    "&kp T",                    "&none",                "&none",            "&kp Y",           "&kp U",     "&kp I",             "&kp O",                   "&kp P",  "&kp BSLH",
-         "&kp ESC",     "&kp A",    "&kp S",    "&kp D",     "&kp F",    "&kp G",                    "&none", "&mt LEFT_CONTROL ESC", "&mt LEFT_ALT DEL",                                 "&mt RIGHT_ALT TAB", "&mt RIGHT_CONTROL ENTER",     "&none",    "&kp H",  "&kp J",     "&kp K",   "&kp L", "&kp SEMI",   "&kp SQT",
+         "&kp ESC",     "&kp A",    "&kp S",  "&lt 4 D",     "&kp F",    "&kp G",                    "&none", "&mt LEFT_CONTROL ESC", "&mt LEFT_ALT DEL",                                 "&mt RIGHT_ALT TAB", "&mt RIGHT_CONTROL ENTER",     "&none",    "&kp H",  "&kp J",     "&kp K",   "&kp L", "&kp SEMI",   "&kp SQT",
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",    "&kp B",                    "&none",                "&none",     "&kp LEFT_WIN",      "&bt BT_NXT",     "&none",     "&kp RIGHT_WIN",                   "&none",     "&none",    "&kp N",  "&kp M", "&kp COMMA", "&kp DOT", "&kp FSLH", "&kp RSHFT",
            "&mo 2", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT", "&kp BSPC",           "&kp LEFT_SHIFT",                "&mo 1",            "&mo 1", "&kp RIGHT_SHIFT", "&kp SPACE",          "&kp DOWN",                  "&kp UP",  "&kp LBKT", "&kp RBKT",  "&mo 2"
     ], [
@@ -33,6 +34,12 @@
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",           "&rgb_ug RGB_MEFS_CMD 5",  "&bt BT_CLR",        "&none",                                      "&bt BT_CLR",   "&bt BT_CLR", "&rgb_ug RGB_MEFS_CMD 5",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",                            "&none",       "&none",        "&none",        "&none",           "&none",        "&none",        "&none",                  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC", "&rgb_ug RGB_TOG",                       "&bl BL_TOG",       "&none",        "&none",   "&bl BL_TOG", "&rgb_ug RGB_TOG",   "&bl BL_INC",   "&bl BL_DEC",                  "&none",  "&none",  "&none"
+    ], [
+       "&trans", "&trans",         "&trans", "&trans",            "&trans", "&trans",           "&trans", "&trans",   "&trans",       "&kp TAB",      "&trans",  "&trans", "&trans", "&trans",
+       "&trans", "&trans",         "&trans", "&trans",            "&trans", "&trans",           "&trans", "&trans", "&kp HOME", "&kp PAGE_DOWN", "&kp PAGE_UP", "&kp END", "&trans", "&trans",
+       "&trans", "&trans", "&kp LEFT_SHIFT", "&trans", "&kp RIGHT_CONTROL", "&trans",           "&trans", "&trans",   "&trans",                                  "&trans", "&trans", "&trans", "&kp LEFT", "&kp DOWN", "&kp UP", "&kp RIGHT", "&trans", "&trans",
+       "&trans", "&trans",         "&trans", "&trans",      "&kp LEFT_ALT", "&trans",           "&trans", "&trans",   "&trans",        "&trans",      "&trans",  "&trans", "&trans", "&trans",   "&trans",   "&trans", "&trans",    "&trans", "&trans", "&trans",
+       "&trans", "&trans",         "&trans", "&trans",            "&trans", "&trans",           "&trans", "&trans",   "&trans",        "&trans",      "&trans",  "&trans", "&trans", "&trans",   "&trans",   "&trans"
     ]
   ]
 }
